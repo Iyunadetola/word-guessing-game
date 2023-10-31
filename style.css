@@ -1,0 +1,49 @@
+
+.hint p{
+    font-size: 2em;
+}
+.inputs input{
+    text-transform: capitalize;
+}
+.container .text-box{
+    z-index: -999;
+    opacity: 0;
+    position: absolute;
+    
+}
+.container{
+    /* margin-top: 50%; */
+    border: 1px solid black;
+    background-color: rgb(74, 42, 3);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* width: 50em; */
+    margin: auto;
+    margin-top: 10%;
+    
+}
+input{
+    width: 3em;
+    height: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+span{
+    font-weight: lighter;
+    
+}
+.guess, .wrong{
+    text-align: center;
+}
+button{
+    width:fit-content;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+button:hover{
+    background-color: rgb(208, 123, 19);
+    color: rgb(255, 255, 255);
+}
